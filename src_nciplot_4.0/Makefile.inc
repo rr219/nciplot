@@ -26,4 +26,5 @@ else
   FCFLAGS = -O -fopenmp
   LDFLAGS = -fopenmp
 endif
-
+make mrproper
+make
